@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<title>SHAURYA EDITOR | Professional Video Editing</title>
+<style>
+:root{--gold:#f4bd38;--gold2:#ffe29a;--bg:#080808;--panel:#151515;--muted:#bdbdbd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#fff;font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#090909ee;border-bottom:1px solid #8c651d;backdrop-filter:blur(10px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}.brand{font-weight:900;letter-spacing:1px;color:var(--gold);font-size:clamp(18px,3vw,25px)}.brand small{display:block;color:#ddd;font-size:10px;letter-spacing:2px;font-weight:500}
+nav{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:#eee}nav a:hover{color:var(--gold)}
+.btn{display:inline-block;background:linear-gradient(135deg,#ffe08b,#d99a16);color:#17100a;padding:11px 19px;border-radius:30px;font-weight:800;border:0;cursor:pointer}
+.btn.outline{background:transparent;color:var(--gold);border:1px solid var(--gold)}.hero{padding:76px 0 66px;background:radial-gradient(circle at 80% 35%,#5a3918 0,#1c130a 22%,#080808 58%);border-bottom:1px solid #8c651d}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:30px}.eyebrow{color:var(--gold);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(42px,7vw,76px);line-height:.98;margin:12px 0;color:var(--gold2);letter-spacing:-2px}.hero p{color:#ddd;max-width:560px;font-size:18px}.hero-art{min-height:260px;border:1px solid #b78327;border-radius:24px;background:linear-gradient(145deg,#302010,#111 55%,#3d260d);display:grid;place-items:center;text-align:center;padding:25px;box-shadow:0 0 45px #d99a1622}.clap{font-size:70px}.hero-art strong{display:block;color:var(--gold);font-size:22px}
+section{padding:58px 0}.section-title{text-align:center;font-size:32px;color:var(--gold);margin:0 0 8px}.sub{text-align:center;color:var(--muted);margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service,.panel{background:linear-gradient(145deg,#1b1b1b,#101010);border:1px solid #73521d;border-radius:17px;padding:22px}.service{display:flex;flex-direction:column;min-height:225px}.service .num{font-size:27px}.service h3{margin:9px 0 2px;font-size:18px}.service p{color:#bbb;margin:0 0 14px;font-size:14px}.price{color:var(--gold);font-size:27px;font-weight:900;margin-top:auto;padding-bottom:12px}.service .btn{align-self:flex-start}
+.note{color:#aaa;font-size:13px;margin-top:16px;text-align:center}
+.order-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel h3{color:var(--gold);margin-top:0}.field{width:100%;padding:13px;margin:7px 0;background:#090909;color:#fff;border:1px solid #555;border-radius:9px;font:inherit}.field:focus{outline:1px solid var(--gold)}label{font-size:13px;color:#ddd}.help{font-size:12px;color:#aaa}.whatsapp{background:#0b9f57;color:#fff}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;text-align:center}.feature{padding:18px;border:1px solid #574018;border-radius:13px;color:#ddd}.feature b{display:block;color:var(--gold);font-size:17px}
+footer{border-top:1px solid #8c651d;padding:28px 0;color:#aaa;text-align:center;font-size:13px}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}nav{gap:12px}.hero-grid,.order-grid{grid-template-columns:1fr}.hero{padding:48px 0}.grid{grid-template-columns:1fr 1fr}.features{grid-template-columns:1fr}.hero-art{min-height:180px}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.section-title{font-size:27px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home">▶ SHAURYA EDITOR<small>EDIT • CREATE • INSPIRE</small></a>
+<nav><a href="#home">Home</a><a href="#services">Services</a><a href="#order">Order Now</a><a href="#contact">Contact</a></nav>
+<a class="btn outline" href="https://wa.me/917007927037" target="_blank" rel="noopener">WhatsApp</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="eyebrow">Professional Video Editing Services</div><h1>YOUR STORY.<br>OUR EDIT.</h1><p>Transform your clips into engaging videos for shops, brands, products and social media.</p><a class="btn" href="#services">Explore Services</a></div>
+<div class="hero-art"><div><div class="clap">🎬</div><strong>SHAURYA EDITOR</strong><span>Creative • Cinematic • Professional</span></div></div>
+</div></section>
+<section id="services"><div class="wrap"><h2 class="section-title">Our Services</h2><p class="sub">Choose a package and place your order</p>
+<div class="grid">
+<article class="service"><div class="num">🎞️</div><h3>One Video Editing</h3><p>Single video editing for your content.</p><div class="price">₹149</div><a class="btn" href="#order" data-service="One Video Editing">Order Now</a></article>
+<article class="service"><div class="num">📦</div><h3>10 Video Editing</h3><p>Package of 10 edited videos.</p><div class="price">₹2,500</div><a class="btn" href="#order" data-service="10 Video Editing">Order Now</a></article>
+<article class="service"><div class="num">📅</div><h3>Monthly Video Editing</h3><p>Approximately 20–25 videos per month.</p><div class="price">₹4,000</div><a class="btn" href="#order" data-service="Monthly Video Editing">Order Now</a></article>
+<article class="service"><div class="num">📣</div><h3>Promotional Video Editing</h3><p>Promotional videos for shops, products and businesses.</p><div class="price">₹980</div><a class="btn" href="#order" data-service="Promotional Video Editing">Order Now</a></article>
+<article class="service"><div class="num">🚚</div><h3>Delivery Video Editing</h3><p>Delivery and delivery-update video editing.</p><div class="price">₹2,000</div><a class="btn" href="#order" data-service="Delivery Video Editing">Order Now</a></article>
+</div><p class="note">Final delivery time and project details will be confirmed on WhatsApp before editing begins.</p>
+</div></section>
+<section><div class="wrap"><h2 class="section-title">Why Choose Us?</h2><p class="sub">Focused editing for your content and business</p><div class="features"><div class="feature">⚡<b>Reliable Updates</b>Order progress on WhatsApp</div><div class="feature">🎯<b>Creative Editing</b>Edits shaped around your brief</div><div class="feature">🤝<b>Direct Support</b>Talk directly with the editor</div></div></div></section>
+<section id="order"><div class="wrap"><h2 class="section-title">Place Your Order</h2><p class="sub">Fill in your details, then send your order on WhatsApp</p>
+<div class="order-grid">
+<div class="panel"><h3>📤 Select Your Video</h3><label for="video">Choose a video file (optional)</label><input class="field" id="video" type="file" accept="video/*"><p class="help" id="fileName">No file selected.</p><p class="help">Note: This demo website does not upload files to a server. After sending the order message, attach your video directly in the WhatsApp chat.</p></div>
+<form class="panel" id="orderForm"><h3>📝 Order Details</h3><label for="name">Your Name</label><input class="field" id="name" required placeholder="Enter your name">
+<label for="phone">Your WhatsApp Number</label><input class="field" id="phone" required type="tel" placeholder="Your number with country code">
+<label for="service">Select Service</label><select class="field" id="service" required><option value="">Choose a service</option><option>One Video Editing — ₹149</option><option>10 Video Editing — ₹2,500</option><option>Monthly Video Editing — ₹4,000 (20–25 videos)</option><option>Promotional Video Editing — ₹980</option><option>Delivery Video Editing — ₹2,000</option></select>
+<label for="details">Video details</label><textarea class="field" id="details" rows="3" placeholder="Tell us what kind of edit you need"></textarea>
+<button class="btn" type="submit">Send Order on WhatsApp</button></form>
+</div></div></section>
+<section id="contact"><div class="wrap panel" style="text-align:center"><h2 class="section-title">Let's Create Something Amazing!</h2><p class="sub">Contact SHAURYA EDITOR directly for your next project.</p><a class="btn whatsapp" href="https://wa.me/917007927037" target="_blank" rel="noopener">Chat on WhatsApp · +91 70079 27037</a></div></section>
+</main>
+<footer><div class="wrap">© 2026 SHAURYA EDITOR · Edit • Create • Inspire</div></footer>
+<script>
+const fileInput=document.getElementById('video');
+fileInput.addEventListener('change',()=>{document.getElementById('fileName').textContent=fileInput.files.length?`Selected: ${fileInput.files[0].name}`:'No file selected.'});
+document.querySelectorAll('[data-service]').forEach(link=>link.addEventListener('click',()=>{const s=link.getAttribute('data-service');const sel=document.getElementById('service');for(const opt of sel.options){if(opt.text.startsWith(s)){sel.value=opt.text;break;}}}));
+document.getElementById('orderForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const name=document.getElementById('name').value.trim(), phone=document.getElementById('phone').value.trim(), service=document.getElementById('service').value, details=document.getElementById('details').value.trim(), file=fileInput.files[0]?.name||'Not selected';
+ const msg=`Hello SHAURYA EDITOR!%0A I want to place an order.%0AName: ${encodeURIComponent(name)}%0AMy WhatsApp: ${encodeURIComponent(phone)}%0AService: ${encodeURIComponent(service)}%0AVideo file: ${encodeURIComponent(file)}%0ADetails: ${encodeURIComponent(details)}%0A%0AI will attach the video in this WhatsApp chat.`;
+ window.open('https://wa.me/917007927037?text='+msg,'_blank','noopener');
+});
+</script>
+</body></html>
